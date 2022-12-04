@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="300.000000pt" height="300.000000pt" viewBox="0 0 350.000000 350.000000"
+ preserveAspectRatio="xMidYMid meet">
+<defs>
+<linearGradient id="grad2" x1="0%" y1="0%" x2="50%" y2="50%">
+<stop offset="0%" style="stop-color:rgb(230, 242, 255);stop-opacity:1;" />
+<stop offset="100%" style="stop-color:rgb(230, 242, 255);stop-opacity:0.7;"/>
+</linearGradient>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="50%" y2="50%">
+<stop offset="0%" style="stop-color:rgb(100, 140, 255);stop-opacity:0.7;" />
+<stop offset="100%" style="stop-color:rgb(0, 40, 255);stop-opacity:0.6;"/>
+</linearGradient>
+</defs>
+<g transform="translate(0.000000,300.000000) scale(0.100000,-0.100000)"
+fill="url(#grad2)" stroke="none">
+<path d="M1140 2275 l0 -415 -415 0 -415 0 0 -355 0 -355 415 0 415 0 0 -415
+0 -415 355 0 355 0 0 415 0 415 415 0 415 0 0 355 0 355 -415 0 -415 0 0 415
+0 415 -355 0 -355 0 0 -415z"/>
+</g>
+<g xmlns="http://www.w3.org/2000/svg" transform="translate(10.000000,310.000000) scale(0.100000,-0.100000)" fill="url(#grad1)" stroke="none">
+<path d="M1140 2275 l0 -415 -415 0 -415 0 0 -355 0 -355 415 0 415 0 0 -415 0 -415 355 0 355 0 0 415 0 415 415 0 415 0 0 355 0 355 -415 0 -415 0 0 415 0 415 -355 0 -355 0 0 -415z"/>
+</g>
+</svg>

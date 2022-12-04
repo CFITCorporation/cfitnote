@@ -1,0 +1,32 @@
+<svg width="1600" height="273.0" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,18.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,39.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,60.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,81.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,102.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,123.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,144.670000000000027149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,165.670000000000027149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,186.670000000000027149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,207.670000000000027149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,228.670000000000027149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,249.670000000000027149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,270.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,291.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,312.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,333.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,354.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,375.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,396.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,417.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,438.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+  <path stroke="#000" opacity="0.2" filter="url(#svg_1_blur)" id="svg_2" d="m0.0,459.677149l574.12236,0.75718" stroke-linecap="undefined" stroke-linejoin="undefined" fill="none"/>
+ </g>
+</svg>

@@ -1,0 +1,155 @@
+<script>
+if(!window.localStorage){
+    alert("你的浏览器不支持localStorage。无法帮你保存便签了T_T");
+	location.href='../../';
+}
+else{
+ var storage=window.localStorage;
+}</script>
+<meta charset='utf-8'><title>CFIT便签</title>
+<meta name="viewport" content="width=device-width, initial-scale=0.65, maximum-scale=0.65, user-scalable=0">
+<style>
+body{
+background-color:#81bef7;
+background-image:url(pattern.svg);
+}
+.note_common, .bignote, .editinfo{
+    padding:20px 10px 10px 10px;
+    float:left;
+    margin:20px;
+    margin-top:10px;
+    position:relative;
+    cursor:pointer;
+    border: 3px solid white;
+	-webkit-border-bottom-left-radius: 20px 700px;
+	-webkit-border-bottom-right-radius: 200px 30px;
+	-webkit-border-top-right-radius: 5px 100px;
+
+	-moz-border-radius-bottomleft: 20px 700px;
+	-moz-border-radius-bottomright: 200px 30px;
+	-moz-border-radius-topright: 5px 100px;
+
+	border-radius-bottomleft: 20px 700px;
+	border-radius-bottomright: 700px 30px;
+	border-radius-topright: 5px 100px;
+
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
+	box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);     
+    -moz-box-shadow: -7px 10px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -7px 10px rgba(0,0,0,0.3);
+    box-shadow: -7px 10px rgba(0,0,0,0.3);
+}
+
+.note_common h2{
+    text-align:center;
+    margin-top:0;
+    padding-top:0;
+    font-family: cursive;
+}
+
+.note_common p{
+    font-size:0.9em;
+    overflow:auto;
+    overflow-x:hidden;
+    line-height:18px;
+    text-align:left;
+    font-family: 'Architects Daughter', cursive;
+}
+.cfit{
+   background-color: #d9f4fc;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#d9f4fc), to(#baf7f5)); 
+   background-image: -webkit-linear-gradient(top, #d9f4fc, #baf7f5); 
+   background-image:    -moz-linear-gradient(top, #d9f4fc, #baf7f5); 
+   background-image:     -ms-linear-gradient(top, #d9f4fc, #baf7f5); 
+   background-image:      -o-linear-gradient(top, #d9f4fc, #baf7f5); 
+   background-image:         linear-gradient(top, #d9f4fc, #baf7f5);
+   background-image: url(svg.svg);
+   background-repeat:repeat;
+   background-attachment:local;
+   overflow:ellipsis;
+
+   }
+   .cfit2{
+   background-color: #d9f4fc;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#d9f4fc), to(#baf7f5)); 
+   background-image: -webkit-linear-gradient(top, #d9f4fc, #baf7f5); 
+   background-image:    -moz-linear-gradient(top, #d9f4fc, #baf7f5); 
+   background-image:     -ms-linear-gradient(top, #d9f4fc, #baf7f5); 
+   background-image:      -o-linear-gradient(top, #d9f4fc, #baf7f5); 
+   background-image:         linear-gradient(top, #d9f4fc, #baf7f5);
+   background-image: url(svg.svg);
+   background-repeat:repeat;
+   background-attachment:local;
+   overflow:ellipsis;
+
+   }
+cfit{
+font-size:18px;
+font-family:黑体;
+color:#442299;/*
+background:-webkit-linear-gradient(90deg,#6699FF,#331188);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+text-shadow:0px 0px 5px #6699FF;*/
+word-break:break-all;
+text-overflow:ellipsis;
+font-weight:900;
+transform: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  width: 6px;
+  background: transparent;
+  opacity:0.2;
+  height:370px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(144,147,153,.5);
+  background-clip: padding-box;
+  min-height: 28px;
+  -webkit-border-radius: 2em;
+  -moz-border-radius: 2em;
+  border-radius: 2em;
+  transition: background-color .3s;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(144,147,153,.3);
+}
+</style>
+<div style="" id="descdiv">
+<body>
+<div style="opacity:0;" id='main'>
+<img title="点击添加便签" id='adico' onclick="javascript:adds();mdiv.style.display='block';" src='add.svg' width='40' style='position:fixed;right:2px;top:5px;'>
+<img title="删除所有便签" src='del.svg' onclick='javascript:storage.clear();'; width='30' id='dele' style='position:fixed;top:calc(50% - 180px);z-index:3690;right:7px;'>
+<cfit>
+<div id='more'>
+</div>
+</cfit>
+<cfit><div class='note_common cfit2' title="编辑便签" id='edit' contenteditable='true' style="display:none;opacity:0;overflow-x:auto;overflow-y:none;width: 400px; height: 400px; position:fixed;z-index:3690;top:calc(50% - 200px);left:calc(50% - 200px);">
+
+</div>
+<img src='del.svg' onclick='javascript:ids="note"+ids.replace(/note/g,""); var data={	 del:1,	 id:ids,	 time:times(),	 data:""	 };	 storage.setItem(ids,JSON.stringify(data));hid2();hid();'; width='20' id='del' style='opacity:0;position:fixed;top:calc(50% - 180px);z-index:3690;left:calc(50% + 210px);'>
+</cfit>
+
+<textarea name='en' id='ed' style='display:none'></textarea>
+<input type='text' name='edvl' style='display:none' id='ev' value='note0'></input>
+<cfit><div class='note_common cfit2' title="添加便签" id='add' contenteditable='true' style="display:none;opacity:0;overflow-x:auto;overflow-y:none;width: 400px; height: 400px; position:fixed;z-index:3690;top:calc(50% - 200px);left:calc(50% - 200px);">
+</div></cfit>
+<textarea name='an' id='ad' style='display:none'></textarea>
+<input type='text' name='advl' style='display:none' id='av'></input>
+</div>
+</body>
+</div>
+<script src="anime.min.js"></script>
+<script src='../../count.php'></script>
+<script src='cfitnote.js'></script>
